@@ -1,8 +1,9 @@
 ## Steganography - War and Pieces
 
+Original image: 
 ![original image](clue.jpg)
 
-I saw the hint that its nothing to do with EXIF data and just old school steg, so i began looking at the image carefully.
+First, I saw the hint that its nothing to do with EXIF data and just old school steg, so i began looking at the image carefully.
 
 I remembered that flags start with UMASS{ and end with } 
 So i thought it could be possible that each soldier represented a byte or 4 bits.
