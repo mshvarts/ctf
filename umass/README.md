@@ -16,7 +16,7 @@ First letter is U = 85 in decimal = 0101 0101 binary
 
 I started writing it all down in notepad but I couldn't solve it by hand because the flag didn't make sense...
 
-![wip](progress.jpg)
+![wip](wip.jpg)
 
 After figuring out half the soldiers values, i was left with unknown ones that could be either 0000, 1000, 1010, 1100, 1110... 
 I knew that the flag almost always contains character _ as well.
