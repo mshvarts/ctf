@@ -20,8 +20,7 @@ I started writing it all down in notepad but I couldn't solve it by hand because
 
 After figuring out half the soldiers values, i was left with unknown ones that could be either 0000, 1000, 1010, 1100, 1110... 
 I knew that the flag almost always contains character _ as well.
-So i wrote a python script to permute the possible choices left for me. It outputted 420 results (hehe) and I looked for the one that made the most sense in "english".
-
+So i wrote a python script to permute the possible choices left for me. 
 ```python
 from itertools import permutations 
 import binascii 
@@ -76,4 +75,7 @@ def is_ascii(s):
 if __name__ == "__main__":
     guess()
 ```
+
+It outputted 420 results (hehe) and I looked for the one that made the most sense in "english".
+
 flag: UMASS{lfl_t0v_s0lj4s}
