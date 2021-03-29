@@ -6,7 +6,7 @@ Original image:
 First, I saw the hint that its nothing to do with EXIF data and just old school steg, so i began looking at the image carefully.
 
 I remembered that flags start with UMASS{ and end with } 
-So i thought it could be possible that each soldier represented a byte or 4 bits.
+So i thought it could be possible that each soldier represented a byte or 8 bits.
 
 It would make sense to start reading from top left going right.
 Looking at the image, i noticed the last two soldiers in the first row, and first two soldiers in the second row were the same. 
